@@ -1,12 +1,17 @@
 package org.example.biblioteca;
 
+/**
+ * Este Objeto consta de la informacion de los libros los cuales son prestados a los Usuarios.
+ * @author Nacho Gamallo
+ * @version 1.0
+ */
 public class Libro {
 
     private boolean available = true;
     private String title;
     private String author;
     private int publicationYear;
-
+    
     public Libro(){}
     public Libro(String title, String author, int publicationYear){
         this.author = author;
