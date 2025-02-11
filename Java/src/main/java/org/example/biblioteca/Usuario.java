@@ -6,7 +6,9 @@ import java.util.ArrayList;
  * Esta clase se encarga de dar de alta a los usuarios que tendremos registrados
  * tanto aqui como en la biblioteca. Tendremos una lista con los libros que cada usuario ha tomado.
  * @author Nacho Gamallo
- * @version 1.0
+ * @since 0.1 APK
+ * @version 1.0 APK
+ * @see Libro
  */
 public class Usuario {
 
